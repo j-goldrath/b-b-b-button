@@ -100,6 +100,8 @@
   .container {
     height: 200px;
     position: relative;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
   }
   .center {
     margin: 0;
@@ -108,4 +110,6 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
   }
